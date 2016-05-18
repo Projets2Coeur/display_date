@@ -8,7 +8,7 @@ Eases the display of event dates in every following cases:
 
 ## TODO
 
-* Add
+* Add more control over formatting
 
 ## Installation
 
@@ -28,7 +28,19 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+# as_date
+DisplayDate.new(d1).as_date              # => "on February 03, 2001"
+DisplayDate.new(d1, nil).as_date         # => "on February 03, 2001"
+DisplayDate.new(d1, d1).as_date          # => "on February 03, 2001"
+DisplayDate.new(d1, d2).as_date          # => "from February 03, 2001 to February 04, 2001"
+
+# as_datetime
+DisplayDate.new(d1t1).as_datetime        # => "on February 03, 2001 at 04:05"
+DisplayDate.new(d1t1, nil).as_datetime   # => "on February 03, 2001 at 04:05"
+DisplayDate.new(d1t1, d1t2).as_datetime  # => "on February 03, 2001 from 04:05 to 06:07"
+DisplayDate.new(d1t1, d2t2).as_datetime  # => "from February 03, 2001 at 04:05 to February 04, 2001 at 06:07"
+```
 
 ## Development
 
