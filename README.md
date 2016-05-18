@@ -9,6 +9,7 @@ Eases the display of event dates in every following cases:
 ## TODO
 
 * Add more control over formatting
+* Display month once if both dates are in the same
 
 ## Installation
 
