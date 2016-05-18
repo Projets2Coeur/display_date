@@ -1,0 +1,12 @@
+---
+dsb:
+  date:
+    formats:
+      default: "%d. %m. %Y"
+      long: "%d. %B %Y"
+      short: "%d %b"
+  time:
+    formats:
+      default: "%A, %d. %B %Y, %H:%M góź."
+      long: "%A, %d. %B %Y, %H:%M góź."
+      short: "%d. %B, %H:%M góź."

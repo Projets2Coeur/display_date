@@ -1,0 +1,12 @@
+---
+bn:
+  date:
+    formats:
+      default: "%e/%m/%Y"
+      long: "%e de %B de %Y"
+      short: "%e de %b"
+  time:
+    formats:
+      default: "%A, %e de %B de %Y %H:%M:%S %z"
+      long: "%e de %B de %Y %H:%M"
+      short: "%e de %b %H:%M"

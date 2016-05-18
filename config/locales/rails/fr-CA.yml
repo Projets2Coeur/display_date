@@ -1,0 +1,12 @@
+---
+fr-CA:
+  date:
+    formats:
+      default: "%Y-%m-%d"
+      long: "%d %B %Y"
+      short: "%y-%m-%d"
+  time:
+    formats:
+      default: "%H h %M min %S s"
+      long: "%A %d %B %Y %H h %M"
+      short: "%H h %M"

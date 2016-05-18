@@ -1,0 +1,12 @@
+---
+lb:
+  date:
+    formats:
+      default: "%d.%m.%Y"
+      long: "%e. %B %Y"
+      short: "%e %b"
+  time:
+    formats:
+      default: "%A, %d. %B %Y, %H:%M Auer"
+      long: "%A, %d. %B %Y, %H:%M Auer"
+      short: "%d. %b %H:%M"

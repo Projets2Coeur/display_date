@@ -1,0 +1,12 @@
+---
+es-PA:
+  date:
+    formats:
+      default: "%-d/%-m/%Y"
+      long: "%A, %-d de %B de %Y"
+      short: "%-d de %b"
+  time:
+    formats:
+      default: "%A, %-d de %B de %Y a las %-I:%M:%S %p %Z"
+      long: "%-d de %B de %Y a las %-I:%M %p"
+      short: "%-d %b %-I:%M %p"

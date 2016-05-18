@@ -1,0 +1,12 @@
+---
+tr:
+  date:
+    formats:
+      default: "%d.%m.%Y"
+      long: "%e %B %Y, %A"
+      short: "%e %b"
+  time:
+    formats:
+      default: "%a %d.%b.%y %H:%M"
+      long: "%e %B %Y, %A, %H:%M"
+      short: "%e %B, %H:%M"

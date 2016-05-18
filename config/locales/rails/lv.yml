@@ -1,0 +1,12 @@
+---
+lv:
+  date:
+    formats:
+      default: "%d.%m.%Y."
+      long: "%Y. gada %e. %B"
+      short: "%e. %B"
+  time:
+    formats:
+      default: "%Y. gada %e. %B, %H:%M"
+      long: "%Y. gada %e. %B, %H:%M:%S"
+      short: "%d.%m.%Y., %H:%M"

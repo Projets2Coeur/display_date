@@ -1,0 +1,12 @@
+---
+sl:
+  date:
+    formats:
+      default: "%d.%m.%Y"
+      long: "%d. %b %Y"
+      short: "%d. %b"
+  time:
+    formats:
+      default: "%A, %d %b %Y ob %H:%M:%S"
+      long: "%d. %B, %Y ob %H:%M"
+      short: "%d. %b ob %H:%M"

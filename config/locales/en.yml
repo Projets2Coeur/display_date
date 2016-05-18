@@ -1,0 +1,6 @@
+en:
+  date_display:
+    date_on: 'on'
+    date_from: 'from'
+    date_to: 'to'
+    date_at: 'at'

@@ -1,0 +1,12 @@
+---
+eu:
+  date:
+    formats:
+      default: "%Y/%m/%e"
+      long: "%Y(e)ko %Bk %e"
+      short: "%b %e"
+  time:
+    formats:
+      default: "%A, %Y(e)ko %Bren %e %H:%M:%S %z"
+      long: "%Y(e)ko %Bren %e,  %H:%M"
+      short: "%b %e, %H:%M"

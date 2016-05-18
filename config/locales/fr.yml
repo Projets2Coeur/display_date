@@ -1,0 +1,6 @@
+fr:
+  date_display:
+    date_on: 'le'
+    date_from: 'du'
+    date_to: 'au'
+    date_at: 'à'

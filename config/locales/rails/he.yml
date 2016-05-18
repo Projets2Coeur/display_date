@@ -1,0 +1,12 @@
+---
+he:
+  date:
+    formats:
+      default: "%d-%m-%Y"
+      long: "%e ב%B, %Y"
+      short: "%e %b"
+  time:
+    formats:
+      default: "%a %d %b %H:%M:%S %Z %Y"
+      long: "%d ב%B, %Y %H:%M"
+      short: "%d %b %H:%M"

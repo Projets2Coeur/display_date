@@ -1,0 +1,12 @@
+---
+hsb:
+  date:
+    formats:
+      default: "%d. %m. %Y"
+      long: "%d. %B %Y"
+      short: "%d %b"
+  time:
+    formats:
+      default: "%A, %d. %B %Y, %H:%M hodź"
+      long: "%A, %d. %B %Y, %H:%M hodź."
+      short: "%d. %B, %H:%M hodź."

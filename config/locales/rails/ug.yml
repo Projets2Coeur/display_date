@@ -1,0 +1,12 @@
+---
+ug:
+  date:
+    formats:
+      default: "%Y-%m-%d"
+      long: "%Y-%m-%d"
+      short: "%b%d"
+  time:
+    formats:
+      default: "%Y %b %d %A %H:%M:%S %Z"
+      long: "%Y %b %d %H:%M"
+      short: "%b %d %H:%M"
