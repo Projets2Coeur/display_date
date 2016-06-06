@@ -1,0 +1,6 @@
+es:
+  date_display:
+    date_on: 'el'
+    date_from: 'desde'
+    date_to: 'hasta'
+    date_at: 'a'
