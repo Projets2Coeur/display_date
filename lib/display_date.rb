@@ -14,7 +14,7 @@ class DisplayDate
   def as_date
     join do
       if d2.nil? || same_day?
-        [on, date(d1)]
+        [ on, date(d1) ]
       else
         [ from, date(d1),
             to, date(d2) ]
@@ -29,14 +29,11 @@ class DisplayDate
           [ on, date(d1), from_time, time(d1),
                             to_time, time(d2) ]
         else
-          [ from, date(d1),
-              at, time(d1),
-              to, date(d2),
-              at, time(d2) ]
+          [ from, date(d1), at, time(d1),
+              to, date(d2), at, time(d2) ]
         end
       else
-        [ on, date(d1),
-          at, time(d1) ]
+        [ on, date(d1), at, time(d1) ]
       end
     end
   end
