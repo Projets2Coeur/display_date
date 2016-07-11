@@ -2,6 +2,10 @@ require 'spec_helper'
 
 describe DisplayDate do
 
+  before do
+    I18n.locale = :fr
+  end
+
   subject { DisplayDate.new(d1, d2) }
 
   it 'can be initialized with only one argument' do
@@ -16,7 +20,7 @@ describe DisplayDate do
     describe 'as_date' do
 
       it 'displays "on date"' do
-        expect(subject.as_date).to eq "on February 03, 2001"
+        expect(subject.as_date).to eq "le 3 février 2001"
       end
 
     end
@@ -24,7 +28,7 @@ describe DisplayDate do
     describe 'as_datetime' do
 
       it 'displays "on date at time"' do
-        expect(subject.as_datetime).to eq "on February 03, 2001 at 04:05"
+        expect(subject.as_datetime).to eq "le 3 février 2001 à 04:05"
       end
 
     end
@@ -41,7 +45,7 @@ describe DisplayDate do
       describe 'as_date' do
 
         it 'displays "on d1 from t1 to t2"' do
-          expect(subject.as_date).to eq "on February 03, 2001"
+          expect(subject.as_date).to eq "le 3 février 2001"
         end
 
       end
@@ -49,7 +53,7 @@ describe DisplayDate do
       describe 'as_datetime' do
 
         it 'displays "from d1 at t1 to d2 at t2"' do
-          expect(subject.as_datetime).to eq "on February 03, 2001 from 04:05 to 06:07"
+          expect(subject.as_datetime).to eq "le 3 février 2001 de 04:05 à 06:07"
         end
 
       end
@@ -64,7 +68,7 @@ describe DisplayDate do
       describe 'as_date' do
 
         it 'displays "On d1' do
-          expect(subject.as_date).to eq "from February 03, 2001 to February 04, 2001"
+          expect(subject.as_date).to eq "du 3 février 2001 au 4 février 2001"
         end
 
       end
@@ -72,7 +76,7 @@ describe DisplayDate do
       describe 'as_datetime' do
 
         it 'displays "from d1 at t1 to d2 at t2"' do
-          expect(subject.as_datetime).to eq "from February 03, 2001 at 04:05 to February 04, 2001 at 06:07"
+          expect(subject.as_datetime).to eq "du 3 février 2001 à 04:05 au 4 février 2001 à 06:07"
         end
 
       end
