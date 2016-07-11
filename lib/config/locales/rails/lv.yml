@@ -1,12 +1,62 @@
 ---
 lv:
   date:
+    abbr_day_names:
+    - Sv.
+    - P.
+    - O.
+    - T.
+    - C.
+    - Pk.
+    - S.
+    abbr_month_names:
+    - 
+    - Janv
+    - Febr
+    - Marts
+    - Apr
+    - Maijs
+    - Jūn
+    - Jūl
+    - Aug
+    - Sept
+    - Okt
+    - Nov
+    - Dec
+    day_names:
+    - svētdiena
+    - pirmdiena
+    - otrdiena
+    - trešdiena
+    - ceturtdiena
+    - piektdiena
+    - sestdiena
     formats:
       default: "%d.%m.%Y."
       long: "%Y. gada %e. %B"
       short: "%e. %B"
+    month_names:
+    - 
+    - Janvāris
+    - Februāris
+    - Marts
+    - Aprīlis
+    - Maijs
+    - Jūnijs
+    - Jūlijs
+    - Augusts
+    - Septembris
+    - Oktobris
+    - Novembris
+    - Decembris
+    order:
+    - :year
+    - :month
+    - :day
   time:
+    am: priekšpusdiena
     formats:
       default: "%Y. gada %e. %B, %H:%M"
       long: "%Y. gada %e. %B, %H:%M:%S"
       short: "%d.%m.%Y., %H:%M"
+    pm: pēcpusdiena

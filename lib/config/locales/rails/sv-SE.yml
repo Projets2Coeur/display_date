@@ -1,54 +1,54 @@
 ---
-nb:
+sv-SE:
   date:
     abbr_day_names:
-    - søn
-    - man
-    - tir
+    - sön
+    - mån
+    - tis
     - ons
     - tor
     - fre
-    - lør
+    - lör
     abbr_month_names:
     - 
     - jan
     - feb
     - mar
     - apr
-    - mai
+    - maj
     - jun
     - jul
     - aug
     - sep
     - okt
     - nov
-    - des
+    - dec
     day_names:
-    - søndag
-    - mandag
-    - tirsdag
+    - söndag
+    - måndag
+    - tisdag
     - onsdag
     - torsdag
     - fredag
-    - lørdag
+    - lördag
     formats:
-      default: "%d.%m.%Y"
-      long: "%e. %B %Y"
-      short: "%e. %b"
+      default: "%Y-%m-%d"
+      long: "%e %B %Y"
+      short: "%e %b"
     month_names:
     - 
-    - januar
-    - februar
+    - januari
+    - februari
     - mars
     - april
-    - mai
+    - maj
     - juni
     - juli
-    - august
+    - augusti
     - september
     - oktober
     - november
-    - desember
+    - december
     order:
     - :day
     - :month
@@ -56,7 +56,7 @@ nb:
   time:
     am: ''
     formats:
-      default: "%A, %e. %B %Y, %H:%M"
-      long: "%A, %e. %B %Y, %H:%M"
-      short: "%e. %B, %H:%M"
+      default: "%a, %e %b %Y %H:%M:%S %z"
+      long: "%e %B %Y %H:%M"
+      short: "%e %b %H:%M"
     pm: ''

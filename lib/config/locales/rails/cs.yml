@@ -1,12 +1,62 @@
 ---
 cs:
   date:
+    abbr_day_names:
+    - Ne
+    - Po
+    - Út
+    - St
+    - Čt
+    - Pá
+    - So
+    abbr_month_names:
+    - 
+    - led
+    - úno
+    - bře
+    - dub
+    - kvě
+    - čvn
+    - čvc
+    - srp
+    - zář
+    - říj
+    - lis
+    - pro
+    day_names:
+    - neděle
+    - pondělí
+    - úterý
+    - středa
+    - čtvrtek
+    - pátek
+    - sobota
     formats:
       default: "%d. %m. %Y"
       long: "%d. %B %Y"
       short: "%d %b"
+    month_names:
+    - 
+    - leden
+    - únor
+    - březen
+    - duben
+    - květen
+    - červen
+    - červenec
+    - srpen
+    - září
+    - říjen
+    - listopad
+    - prosinec
+    order:
+    - :day
+    - :month
+    - :year
   time:
+    am: am
     formats:
       default: "%a %d. %B %Y %H:%M %z"
       long: "%A %d. %B %Y %H:%M"
       short: "%d. %m. %H:%M"
+    pm: pm
