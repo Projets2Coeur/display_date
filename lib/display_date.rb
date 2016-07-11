@@ -55,7 +55,7 @@ private
   end
 
   def join
-    yield.join(' ')
+    yield.join(' ').gsub(/[ ]+/, ' ')
   end
 
   def on;        I18n.t('date_display.date_on');        end
