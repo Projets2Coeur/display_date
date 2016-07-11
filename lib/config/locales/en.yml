@@ -1,6 +1,8 @@
 en:
   date_display:
     date_on: 'on'
+    date_at: 'at'
     date_from: 'from'
     date_to: 'to'
-    date_at: 'at'
+    date_from_time: 'from'
+    date_to_time: 'to'

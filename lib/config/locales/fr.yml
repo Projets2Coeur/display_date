@@ -1,6 +1,8 @@
 fr:
   date_display:
     date_on: 'le'
+    date_at: 'à'
     date_from: 'du'
     date_to: 'au'
-    date_at: 'à'
+    date_from_time: 'de'
+    date_to_time: 'à'

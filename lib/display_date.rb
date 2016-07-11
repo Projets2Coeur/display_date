@@ -26,9 +26,8 @@ class DisplayDate
     join do
       if d2
         if same_day?
-          [   on, date(d1),
-            from, time(d1),
-              to, time(d2) ]
+          [ on, date(d1), from_time, time(d1),
+                            to_time, time(d2) ]
         else
           [ from, date(d1),
               at, time(d1),
@@ -62,9 +61,11 @@ private
     yield.join(' ')
   end
 
-  def on;   I18n.t('date_display.date_on');   end
-  def from; I18n.t('date_display.date_from'); end
-  def to;   I18n.t('date_display.date_to');   end
-  def at;   I18n.t('date_display.date_at');   end
+  def on;        I18n.t('date_display.date_on');        end
+  def from;      I18n.t('date_display.date_from');      end
+  def to;        I18n.t('date_display.date_to');        end
+  def from_time; I18n.t('date_display.date_from_time'); end
+  def to_time;   I18n.t('date_display.date_to_time');   end
+  def at;        I18n.t('date_display.date_at');        end
 
 end
